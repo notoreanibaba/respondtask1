@@ -1,0 +1,183 @@
+
+
+@media (min-width: 481px) and (max-width: 1440px) {
+    .flex-cont {
+        background-color: hsl(0, 100%, 74%);
+        background-image: url("images/bg-intro-desktop.png");
+        background-attachment: fixed;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        padding: 3rem;
+        margin: auto;
+        font-family: 'Poppins';
+    }    
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .flex-cont {
+        background-color: hsl(0, 100%, 74%);
+        background-image: url("images/bg-intro-desktop.png");
+        background-attachment: fixed;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 8px;
+        margin: auto;
+        font-family: 'Poppins';
+    }
+}
+
+body{
+    background-color: hsl(0, 100%, 74%);
+    background-image: url("images/bg-intro-desktop.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h5 {
+    color: white;
+}
+
+p {
+    font-weight: 400;
+}
+
+.one {
+    font-size: 16px;
+    margin: 1rem;
+    padding: 1rem;
+    width: 50%;
+    font-family: 'Poppins';
+    color: white;
+}
+
+.two {
+    font-size: 16px;
+    width: 50%;
+}
+
+.formm {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0px 4px;
+}
+
+.btt {
+    width: 100%;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 1rem;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border: none;
+}
+
+.btt:hover {
+    cursor: pointer;
+    box-shadow: 0 2px black;
+}
+
+.tro {
+    text-align: center;
+    color: hsl(246, 25%, 77%);
+    font-family: 'Poppins';
+}
+
+.try {
+    font-family: 'Poppins';
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 2px;
+    text-align: center;
+    box-shadow: 0px 4px 0px;
+}
+
+.mo {
+    color: hsl(246, 25%, 77%);
+}
+
+.terms {
+    color: hsl(0, 100%, 74%);
+}
+
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #000;
+}
+
+.input-control.error input {
+    border-color: hsl(0, 100%, 74%);
+    background: url('images/icon-error.svg') no-repeat scroll 7px 7px;
+    background-position: 95% 50%;
+    
+
+}
+
+.input-control.error ::placeholder {
+    color: hsl(0, 100%, 74%);
+}
+
+.input-control .error {
+    color: hsl(0, 100%, 74%);
+    font-family: 'Poppins';
+    font-size: 10px;
+    height: 13px;
+    text-align: right;
+    font-style: italic;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+input[type=password],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
